@@ -1,10 +1,10 @@
 import os
 from datetime import datetime, timedelta
 
-# Base directories
+# Base directories (Updated to use /home/vagrant instead of /home/ubuntu)
 base_dirs = [
-    "/home/ubuntu/projects/spriced-backend/sim-spriced-resources/docker-compose/kafka/data/processed/",
-    "/home/ubuntu/projects/view_export_csv/"
+    "/home/vagrant/projects/spriced-backend/sim-spriced-resources/docker-compose/kafka/data/processed/",
+    "/home/vagrant/projects/view_export_csv/"
 ]
 
 # Function to create file with a specific filename in each target dir
